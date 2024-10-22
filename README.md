@@ -16,18 +16,18 @@
 
 ## Установка:
 
-- На Windows вы можете использовать просто `python`.
-- На Linux обычно рекомендуется использовать `python3`, чтобы явно указать на версию Python.
+- На Windows вы можете использовать `python`.
+- На Linux можно использовать `python3`.
 
 
 1. Клонируйте репозиторий и перейдите в него в терминале:
 ```
-git clone git@github.com:zerin2/api_yamdb.git
+git clone git@github.com:zerin2/api_project.git
 cd api_yamdb
 ```
 2. Cоздайте и активируйте виртуальное окружение:
 ```
-python -m venv env
+python -m venv venv
 ```
 ```
 source venv/scripts/activate
@@ -36,7 +36,7 @@ source venv/scripts/activate
 ```
 pip install -r requirements.txt
 ```
-4. Не забудьте выполнить миграции:
+4. Выполните миграции:
 ```
 python manage.py migrate
 ```
@@ -142,7 +142,7 @@ python manage.py runserver
 
 ## API Документация:
 
-Когда вы запустите проект, по адресу  [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/) будет доступна документация для API YaMDB. 
+Когда вы запустите проект, по адресу  [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/) будет доступна документация для API. 
 Документация представлена в формате Redoc.
 
 ---

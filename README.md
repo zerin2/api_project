@@ -22,7 +22,7 @@
 
 1. Клонируйте репозиторий и перейдите в него в терминале:
 ```
-git clone git@github.com:turbonyasha/api_yamdb.git
+git clone git@github.com:zerin2/api_yamdb.git
 cd api_yamdb
 ```
 2. Cоздайте и активируйте виртуальное окружение:
@@ -146,9 +146,3 @@ python manage.py runserver
 Документация представлена в формате Redoc.
 
 ---
-
-## Авторы проекта:
-
-- [![GitHub](https://img.icons8.com/color/48/000000/github.png)Макс Дворак](https://github.com/max-dvorak): разработчик, автор базы данных произведений и скрипта импорта данных.
-- [![GitHub](https://img.icons8.com/color/48/000000/github.png)Влад Стерлюкин](https://github.com/zerin2): разработчик, автор пользовательских ресурсов и работы с токенами.
-- [![GitHub](https://img.icons8.com/color/48/000000/github.png)Женя Скуратова](https://github.com/turbonyasha): разработчик, автор секции отзывов и комментариев, тимлид.
